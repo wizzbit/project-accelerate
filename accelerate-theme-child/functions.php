@@ -25,6 +25,7 @@
  * @since Accelerate Marketing 1.0
  */
 
+wp_enqueue_style( '_s-style', get_stylesheet_uri(), array(), time() );
 	
 function create_custom_post_types() {
     register_post_type( 'case_studies',
