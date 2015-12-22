@@ -283,9 +283,7 @@ ol {
 	margin: 0 0 24px 20px;
 }
 
-ul {
-	list-style: disc;
-}
+
 
 ol {
 	list-style: decimal;
@@ -300,6 +298,10 @@ img {
 	-ms-interpolation-mode: bicubic;
 	border: 0;
 	vertical-align: middle;
+	margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 figure {

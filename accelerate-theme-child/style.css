@@ -36,17 +36,114 @@
     text-align: center;
 }
 
+
+/*#masthead a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+    color: white;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+#masthead nav {
+    float: right;
+    margin: -3px;
+}
+
+
+/*#masthead nav ul li {
+
+	float: left;
+	margin: 0 10px;
+	font-size: 20px;
+
+}*/
+
+.menu-top-nav-container ul li{
+text-transform: uppercase;
+display: inline-block;
+margin-left: 35px;
+font-size: 13px; 
+}
+
+
+
+.current-menu-parent ul li {
+	font-size: 10px;
+}
+
+ 
+/*.menu-top-nav-container span, s, ul, td, {
+    border: 0 none;
+    color: #45ac9d;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}*/
+
+.homepage-hero span, s, ul, td {
+    border: 0 none;
+    color: #45ac9d;
+    font-family: arial;
+    font-size: 100%;
+    font-style: arial;
+    font-weight: lighter;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.site-navigation .primary-navigation ul li {
+    border: 0 none;
+    color: #45ac9d;
+    font-family: italic;
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.nav-menu .current-menu-item > a,
+.nav-menu .current_page_item > a {
+font-weight: bold;
+}
+
+/* Homepage Styles */
+
+.homepage-hero h3 {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+    padding: 0 150px;
+    text-align: center;
+    width: 593px;
+}
+
 /* blog post on homepage */
 
 .recent-posts {
 	overflow: hidden;
 }
 
-#masthead nav ul li {
-
-	float: left;
-	margin: 0 10px;
-}
 
 .blog-post {
 	width: 44.75%;
@@ -72,6 +169,11 @@
 
 }
 
+.blog-post figure {
+
+	margin: 20px;
+}
+
 .blog-post .read-more-link {
 	font: 700 15px 'montserrat';
 	color: #45ac9c;
@@ -80,6 +182,8 @@
 
 
 /* Case Studies */
+
+
 
 article.case-study {
 	margin: 40px 0 0;
@@ -90,8 +194,8 @@ article.case-study {
 aside.case-study-sidebar {
 
 	float: left;
-	width: 314;
-	margin: 0 40px 0 0;
+	width: 314px;
+	margin: 0px 40px 20px 0px
 
 }
 
@@ -107,4 +211,55 @@ div.case-study-images img {
 	border: 1px solid #dddddd;
 	float: right;
 }
+
+
+
+
+/* Featured work on homepage */
+.featured-work {
+	overflow:auto;
+	width: 1200px;
+}
+
+.featured-work h3 {
+    font-size: 22px;
+    line-height: 1.09091;
+    text-align: center;
+}
+
+.featured-work p {
+	text-align: center;
+}
+
+.featured-work h4 {
+	font-family:'Montserrat';
+	text-transform:uppercase;
+	text-align:center;
+	margin:0 0 40px;
+}
+
+.featured-work ul {
+	margin:0;
+}
+
+.individual-featured-work {
+    float: left;
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    width: 31%;
+}
+
+.individual-featured-work h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.individual-featured-work:nth-child(3n) {
+    margin: 0;
+    width: 31%;
+}
+
+
 
